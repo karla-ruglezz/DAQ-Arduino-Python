@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import collections
 
-# 1. BUSCAR EL PUERTO USB AUTOMÁTICAMENTE (Para Android/Tablet)
 print("Buscando Arduino...")
 puertos = list(serial.tools.list_ports.comports())
 puerto_arduino = ""
